@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans+Condensed:wght@700&family=Stalinist+One&display=swap');
 
 .clear {
   clear: both;
@@ -9,14 +10,14 @@
   font-style: italic;
   position: relative;
   border-radius: 100%;
-  background: #f84342;
+  background: #fcba03;
   border: 1px solid #F7F7F7;
   width: 80px;
   height: 80px;
   margin: 10px 10px;
   text-align: center;
   color: #FFF;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 16px;
   cursor: pointer;
   transform: rotate(11deg);
@@ -40,6 +41,7 @@
   font-size: 25px;
   margin: 0 10px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'Architects Daughter', cursive;
 }
 
 .links a:hover {
@@ -47,9 +49,19 @@
 }
 
 header {
-  border-top: 9px solid #222;
+  border-top: 9px solid #fcba03;
 }
 
 hr {
   clear: both;
+  border: 1px solid #fcba03;
+}
+
+h1 {
+   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+  font-family: 'Stalinist One', cursive;
+  font-size: 28px;
 }
