@@ -32,3 +32,12 @@ body {
   color: #fcba03;
   text-decoration: none;
 }
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+    margin-top: 12px;
+  }
+}
+
+
