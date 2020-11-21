@@ -55,8 +55,18 @@
   font-weight: bold;
 }
 
-.logo:hover {
+.next-quote:hover {
+  color: #dfdfdf;
   text-decoration: none;
+}
+
+.logo {
+  color: #FFF;
+}
+
+.logo:hover {
+  text-decoration: dashed;
+  color: #dfdfdf;
 }
 
 header {
